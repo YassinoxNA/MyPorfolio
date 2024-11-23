@@ -24,4 +24,7 @@ document.getElementById("about")?.scrollIntoView();
   {
     document.getElementById("contact")?.scrollIntoView();
   }
+  toAcademic(){
+    document.getElementById("academic")?.scrollIntoView();
+  }
 }
