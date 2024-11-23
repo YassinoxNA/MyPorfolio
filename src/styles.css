@@ -1,1 +1,97 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+ font-family: Arial, sans-serif;
+ background-color: #f4f4f9;
+ color: #333;
+}
+
+.section {
+ padding: 40px 20px;
+}
+
+.about-img {
+ width: 300px;
+ height: auto;
+ border-radius: 10px;
+ object-fit: cover;
+}
+
+.project-card {
+ border: 1px solid #ddd;
+ border-radius: 5px;
+ padding: 20px;
+ background: white;
+}
+
+footer {
+ background: #333;
+ color: white;
+ text-align: center;
+ padding: 20px 0;
+}
+
+.skills ul {
+ list-style: none;
+ padding: 0;
+}
+.skills ul li {
+ display: flex;
+ align-items: center;
+ background: #007bff;
+ color: white;
+ padding: 10px;
+ margin: 5px 0;
+ border-radius: 5px;
+}
+.skills ul li i {
+ margin-right: 10px;
+}
+.section {
+ padding: 40px 20px;
+}
+.skills ul {
+ list-style: none;
+ padding: 0;
+}
+.skills ul li {
+ display: flex;
+ align-items: center;
+ background: #007bff;
+ color: white;
+ padding: 10px;
+ margin: 5px 0;
+ border-radius: 5px;
+}
+.skills ul li i {
+ margin-right: 10px;
+}
+.project-card {
+ border: 1px solid #ddd;
+ border-radius: 5px;
+ padding: 20px;
+ margin-bottom: 20px;
+ background: white;
+}
+.about-img {
+ width: 300px; /* Largeur rectangulaire */
+ height: auto; /* Hauteur ajustée automatiquement */
+ border-radius: 10px; /* Coins légèrement arrondis */
+ object-fit: cover; /* Remplit le cadre tout en conservant les proportions */
+ margin-bottom: 20px;
+}
+footer {
+ background: #333;
+ color: white;
+ text-align: center;
+ padding: 20px 0;
+}
+.list-inline-item {
+ margin-right: 10px;
+ font-size: 1.2rem;
+}
+
+html {
+ scroll-behavior: smooth;
+}
+p,li{
+ font-size: 1.5em;
+}
